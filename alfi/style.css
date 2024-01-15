@@ -1,0 +1,42 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  height: 100vh;
+  background-color: #a9a9a9;
+  color: #201e1e;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 10px;
+}
+.judul {
+  text-align: center;
+  padding: 10px;
+  color: #272727;
+}
+
+p {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: #713d3d solid 1px;
+}
+th {
+  background-color: rgb(137, 127, 127);
+  color: black;
+}
+
+.vote {
+  display: flex;
+  justify-content: center;
+}
